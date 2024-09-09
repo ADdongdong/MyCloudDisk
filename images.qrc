@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/closeWindow.png</file>
+        <file>images/maxWindow.png</file>
+        <file>images/minWindow.png</file>
+        <file>images/setting.png</file>
+        <file>images/logo.png</file>
+        <file>images/download.png</file>
+        <file>images/share.png</file>
+        <file>images/Transform.png</file>
+        <file>images/user.png</file>
+        <file>images/myfile.png</file>
+        <file>images/switchuser.png</file>
+        <file>images/file.png</file>
+        <file>images/picture.png</file>
+        <file>images/music.png</file>
+        <file>images/minWindow2.png</file>
+        <file>images/upload.png</file>
+    </qresource>
+</RCC>

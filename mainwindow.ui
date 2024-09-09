@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="ButtonGroup" name="button_group" native="true"/>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="MyFileWidget" name="myFile_page"/>
+      <widget class="ShareWidget" name="share_page"/>
+      <widget class="downloadWidget" name="download_page"/>
+      <widget class="TransformWidget" name="transform_page"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ButtonGroup</class>
+   <extends>QWidget</extends>
+   <header>buttongroup.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MyFileWidget</class>
+   <extends>QWidget</extends>
+   <header>myfilewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>TransformWidget</class>
+   <extends>QWidget</extends>
+   <header>transformwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ShareWidget</class>
+   <extends>QWidget</extends>
+   <header>sharewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>downloadWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">downloadwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
